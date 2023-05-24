@@ -1,0 +1,112 @@
+body{
+    background-color: #eee;
+}
+.container{
+    background-color: #fff;
+}
+.index-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.index-box:hover {
+    border: 1px solid #00f;
+}
+
+.index-img {
+    text-align: center;
+}
+
+.index-img img {
+    height: 120px;
+    max-width: 150px;
+}
+
+.index-name {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.index-desc {
+    text-align: center;
+    margin-top: 10px;
+    height: 3rem;
+}
+
+.index-price {
+    text-align: center;
+    margin-top: 10px;
+    color: #f00;
+}
+
+.index-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.index-button a {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'phetsarath ot';
+}
+
+.index-form {
+    margin: 20px 0px;
+    font-family: 'phetsarath ot';
+}
+
+/* start product detail*/
+
+.p_detail .col-sm-4 {
+    text-align: center;
+
+}
+
+.p_detail .col-sm-4 img{
+    text-align: center;
+    width: 70px; 
+    transition: transform.2;
+}
+
+.p_detail .col-sm-4 img:hover{
+    transform: scale(2);
+}
+.p_name{
+    font-size: 2rem;
+    font-weight: bold;
+    height: 70px;
+}
+.p_description{
+    height: 20px;
+}
+.p_price{
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+}
+.form{
+    margin-top: 20px;
+}
+.p_btn{
+    margin-top: 20px;
+}
+.p_detail{
+    padding: 50px 0px;
+}
+.btn-group p{
+    font-size: 18px;
+    color: #00f;
+    font-weight: bold;
+    margin: 2px;
+}
+.btn_amount{
+    margin-left: 2px;
+    width: 2px;
+    border-radius: 5px;
+}
+.btn_add{
+    margin-left: 2px;
+    width: 2px;
+    border-radius: 5px;
+}
